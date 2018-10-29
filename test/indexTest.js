@@ -53,7 +53,10 @@ describe('index.js', () => {
       Array.prototype.map.restore();
     });
 
-    it('uses the Array map method', () => {
+    it('uses the Array map method', 
+    lowerCaseAttributes  => ()
+    
+    {
       const drivers = [
         'Bobby Smith',
         'Sammy Watkins',
